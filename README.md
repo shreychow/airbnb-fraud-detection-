@@ -14,11 +14,11 @@ Predict whether an Airbnb listing is suspicious based on:
 - Random Forest
 - GridSearchCV for optimization
 
-## 📝 Results
+## Results
 - Accuracy: 99%
 - F1 Score (suspicious class): ~0.29 (class imbalance)
 
-## 📁 Files
+## Files
 - `DefineAndSolveMLProblem.ipynb`: Jupyter notebook with full analysis
 - `airbnbListingsData.csv`: Raw dataset (if included)
 
@@ -26,5 +26,5 @@ Predict whether an Airbnb listing is suspicious based on:
 1. Run the notebook
 
 ## Notes
-- The dataset is highly imbalanced — model performance on the suspicious class may be limited.
+- The dataset is highly imbalanced. Model performance on the suspicious class may be limited.
 - Further improvements could involve oversampling or anomaly detection techniques.
